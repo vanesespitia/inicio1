@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="es">
+  <head>
+    <meta name="viewport" content="width=device-width, user-scalable=no,initial-scale=1, maxium-scale=1, minimum-scalae=1">
+    <meta charset="utf-8"/>
+    <meta name="description" content="Encuesta"/><!--Específica la descripción de la página-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="CSS/Encuesta.css" rel="stylesheet" type="text/css"/>
+    <title>Encuesta</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="menu">
+        <ul>
+          <li><a href=""></a>Aviso de privacidad</li>
+          <li><a class="salir" href="https://angular-kscvzg.stackblitz.io/">Salir</a></li>
+        </ul>
+      </nav>
+    </header>
+      <p></p>
+    <section id="pantalla-dividida">
+
+      <div class="barra"><!--Barra de avance-->
+          <div class="progress-bar progress-bar-striped bg-info progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:10%">
+          10%
+        </div>
+      </div>
+      <p></p>
+
+      <div class="pregunta"><!--Zona de pregunta-->
+        <p>1.- ¿En general, su experiencia en esta compa&ntilde;&iacute;a es satisfactoria y gratificante?</p>
+      </div>
+
+        <p></p>
+
+        <div class="contenedor">
+          <div  class="imagen">
+            <img class="pregunta1" src="Imagenes/satis.png" alt="login" content="width=device-width, user-scalable=no,initial-scale=1, maxium-scale=1, minimum-scalae=1">
+          </div>
+           
+          <div class="respuesta"><!--Zona de respuesta-->
+            <button type="button" class="btn btn-info">1</button>
+            <button type="button" class="btn btn-info">2</button>
+            <button type="button" class="btn btn-info">3</button>
+            <button type="button" class="btn btn-info">4</button>
+            <button type="button" class="btn btn-info">5</button>
+            <button type="button" class="btn btn-info">6</button>
+            <button type="button" class="btn btn-info">7</button>
+            <button type="button" class="btn btn-info">8</button>
+            <button type="button" class="btn btn-info">9</button>
+            <button type="button" class="btn btn-info">10</button>
+          </div>
+
+          <div class="next"><!--Boton next-->
+            <button type="button" class="btn btn-info">Siguiente</button>
+          </div>
+        </div>
+    </section>
+      </body>
+  </html>
